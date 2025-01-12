@@ -29,23 +29,27 @@ A terminal-based Snake game implemented in C using the `ncurses` library.
    ```bash
    git clone https://github.com/s1upee/snake.git
    cd snake
+   ```
 
 2. **Build the Project**:
    ```bash
    make
+   ```
 
 3. **Run the Game**:
    ```bash
    ./snake
+   ```
 
 4. **Clean the Build**:
    ```bash
    make clean
+   ```
 
 ## Controls
-**Arrow Keys**: Move the snake.
-**Q**: Quit the game.
-**Enter**: Select menu options.
+- **Arrow Keys**: Move the snake.
+- **Q**: Quit the game.
+- **Enter**: Select menu options.
 
 ## Folder Structure
 
@@ -69,14 +73,19 @@ snake/
 ├── Makefile             # Build instructions
 ├── README.md            # Project documentation
 ├── LICENSE              # License for the project
+```
 
 ## Requirements
-GCC or Clang
-make
-ncurses library
+- GCC or Clang
+- `make`
+- `ncurses` library
+
+---
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
