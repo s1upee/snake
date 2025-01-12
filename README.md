@@ -14,13 +14,13 @@ A terminal-based Snake game implemented in C using the `ncurses` library.
 
 ## Screenshots
 ### Welcome Screen
-![Welcome Screen](../snake/screenshots/screenshot_welcome.png)
+![Welcome Screen](screenshots/screenshot_welcome.png)
 
 ### Gameplay
-![Gameplay](../snake/screenshots/screenshot_gameplay.png)
+![Gameplay](screenshots/screenshot_gameplay.png)
 
 ### Game Over Screen
-![Game Over](../snake/screenshots/screenshot_gameover.png)
+![Game Over](screenshots/screenshot_gameover.png)
 
 ---
 
@@ -48,21 +48,27 @@ A terminal-based Snake game implemented in C using the `ncurses` library.
 **Enter**: Select menu options.
 
 ## Folder Structure
-   
-   snake/
-   ├── src/                 # Source code files
-   │   ├── main.c
-   │   ├── snake.c
-   │   ├── game.c
-   │   ├── utils.c
-   ├── include/             # Header files
-   │   ├── snake.h
-   │   ├── game.h
-   │   ├── utils.h
-   ├── build/               # Optional: Compiled object files or binary (add to gitignore)
-   ├── .gitignore           # Files and directories to exclude from Git
-   ├── Makefile             # Build instructions
-   ├── README.md            # Project documentation
+
+```plaintext
+snake/
+├── src/                 # Source code files
+│   ├── main.c
+│   ├── snake.c
+│   ├── game.c
+│   ├── utils.c
+├── include/             # Header files
+│   ├── snake.h
+│   ├── game.h
+│   ├── utils.h
+├── screenshots/         # Screenshots for README (optional)
+│   ├── screenshot_welcome.png
+│   ├── screenshot_gameplay.png
+│   ├── screenshot_gameover.png
+├── build/               # Optional: Compiled object files or binary (add to .gitignore)
+├── .gitignore           # Files and directories to exclude from Git
+├── Makefile             # Build instructions
+├── README.md            # Project documentation
+├── LICENSE              # License for the project
 
 ## Requirements
 GCC or Clang
